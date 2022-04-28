@@ -1,11 +1,13 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-const App = () => {
+export default function App() {
   return (
-    <main className="container">
-      <div> Hello Starting</div>
-    </main>
+    <div>
+      <h1>Bookkeeper</h1>
+      <nav>
+        <Link to="/invoices">Invoices</Link> | &nbsp;
+        <Link to="/expenses">Expenses</Link>
+      </nav>
+    </div>
   );
-};
-
-export default App;
+}
