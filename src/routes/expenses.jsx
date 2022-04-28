@@ -1,7 +1,11 @@
-export default function Expenses() {
+const img = " https://www.gillyreads.com/content/images/2020/05/IMG_2640-1.jpg";
+
+const Expenses = () => {
   return (
-    <main style={{ padding: "1rem 0" }}>
-      <h2>Expenses</h2>
+    <main >
+      <img src={img} alt=""  style={{width: 400  } }/>
     </main>
   );
-}
+};
+
+export default Expenses;
