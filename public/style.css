@@ -7,9 +7,7 @@
 }
 @import url("https://fonts.googleapis.com/css2?family=Tapestry&display=swap");
 
-main.container {
-  margin: 2rem 20rem;
-}
+
 
 .active {
   text-decoration: none;
